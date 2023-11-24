@@ -1,0 +1,26 @@
+{
+  "RGStateInfo": [
+    {
+      "ObjectType": "Enemy",
+      "States": [
+        {
+          "StateName": "CurrentHealth",
+          "Type": "int"
+        },
+        {
+          "StateName": "MaxHealth",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "ObjectType": "Player",
+      "States": [
+        {
+          "StateName": "IsAttacking",
+          "Type": "bool"
+        }
+      ]
+    }
+  ]
+}

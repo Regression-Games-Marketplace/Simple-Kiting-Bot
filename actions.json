@@ -1,0 +1,36 @@
+{
+  "BotActions": [
+    {
+      "ObjectType": "Player",
+      "Actions": [
+        {
+          "ActionClassName": "RGFirstBotStarterScene.RGAction_SelectAndAttackEnemy",
+          "ActionName": "SelectAndAttackEnemy",
+          "Parameters": [
+            {
+              "Name": "enemyId",
+              "Type": "int",
+              "Nullable": false
+            },
+            {
+              "Name": "ability",
+              "Type": "int",
+              "Nullable": false
+            }
+          ]
+        },
+        {
+          "ActionClassName": "RGFirstBotStarterScene.RGAction_MoveInDirection",
+          "ActionName": "MoveInDirection",
+          "Parameters": [
+            {
+              "Name": "newMoveDirection",
+              "Type": "Vector2",
+              "Nullable": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
