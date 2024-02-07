@@ -1,0 +1,113 @@
+{
+  "RGStateInfo": [
+    {
+      "ObjectType": "EnemyController",
+      "States": [
+        {
+          "StateName": "CurrentHealth",
+          "Type": "int"
+        },
+        {
+          "StateName": "MaxHealth",
+          "Type": "int"
+        }
+      ]
+    },
+    {
+      "ObjectType": "PlayerAttack",
+      "States": [
+        {
+          "StateName": "IsAttacking",
+          "Type": "bool"
+        }
+      ]
+    },
+    {
+      "ObjectType": "platformer2DLevel",
+      "States": [
+        {
+          "StateName": "tileMapBounds",
+          "Type": "UnityEngine.BoundsInt"
+        },
+        {
+          "StateName": "currentBounds",
+          "Type": "UnityEngine.BoundsInt"
+        },
+        {
+          "StateName": "tileCellSize",
+          "Type": "UnityEngine.Vector3"
+        },
+        {
+          "StateName": "platformPositions",
+          "Type": "RegressionGames.RGBotConfigs.RGStateProviders.RgPlatformer2DPosition[]"
+        }
+      ]
+    },
+    {
+      "ObjectType": "platformer2DPlatformOrBlock",
+      "States": [
+        {
+          "StateName": "size",
+          "Type": "UnityEngine.Vector3"
+        },
+        {
+          "StateName": "position",
+          "Type": "UnityEngine.Vector3"
+        },
+        {
+          "StateName": "breakable",
+          "Type": "bool"
+        },
+        {
+          "StateName": "movable",
+          "Type": "bool"
+        },
+        {
+          "StateName": "dropthroughAble",
+          "Type": "bool"
+        },
+        {
+          "StateName": "jumpthroughAble",
+          "Type": "bool"
+        }
+      ]
+    },
+    {
+      "ObjectType": "platformer2DPlayer",
+      "States": [
+        {
+          "StateName": "position",
+          "Type": "UnityEngine.Vector3"
+        },
+        {
+          "StateName": "jumpHeight",
+          "Type": "float"
+        },
+        {
+          "StateName": "maxJumpHeight",
+          "Type": "float"
+        },
+        {
+          "StateName": "velocity",
+          "Type": "float"
+        },
+        {
+          "StateName": "maxVelocity",
+          "Type": "float"
+        },
+        {
+          "StateName": "safeFallHeight",
+          "Type": "float"
+        },
+        {
+          "StateName": "nonFatalFallHeight",
+          "Type": "float"
+        },
+        {
+          "StateName": "gravity",
+          "Type": "float"
+        }
+      ]
+    }
+  ]
+}

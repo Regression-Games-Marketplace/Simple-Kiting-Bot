@@ -1,0 +1,73 @@
+{
+  "BotActions": [
+    {
+      "ObjectType": null,
+      "Actions": [
+        {
+          "ClassName": "RegressionGames.StateActionTypes.RGActionRequest_ClickButton",
+          "ActionName": "ClickButton",
+          "Parameters": [
+            {
+              "Name": "targetId",
+              "Type": "int",
+              "Nullable": false
+            }
+          ]
+        },
+        {
+          "ClassName": "RegressionGames.StateActionTypes.RGActionRequest_KeyPress",
+          "ActionName": "KeyPress",
+          "Parameters": [
+            {
+              "Name": "keyId",
+              "Type": "UnityEngine.InputSystem.Key",
+              "Nullable": false
+            },
+            {
+              "Name": "holdTime",
+              "Type": "double",
+              "Nullable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ObjectType": "PlayerAttack",
+      "Actions": [
+        {
+          "ClassName": "FirstBotDemo.RGActionRequest_PlayerAttack_SelectAndAttackEnemy",
+          "ActionName": "SelectAndAttackEnemy",
+          "Parameters": [
+            {
+              "Name": "enemyId",
+              "Type": "int",
+              "Nullable": false
+            },
+            {
+              "Name": "ability",
+              "Type": "int",
+              "Nullable": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ObjectType": "PlayerInputControl",
+      "Actions": [
+        {
+          "ClassName": "FirstBotDemo.RGActionRequest_PlayerInputControl_MoveInDirection",
+          "ActionName": "MoveInDirection",
+          "Parameters": [
+            {
+              "Name": "newMoveDirection",
+              "Type": "UnityEngine.Vector2",
+              "Nullable": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
