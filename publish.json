@@ -1,0 +1,11 @@
+{
+    "title": "Simple Kiting Bot (Demo)",
+    "description": "COPY FROM README",
+    "shortDescription": "A demo bot that moves around and attacks an enemy. Made for the getting started tutorial.",
+    "gameCategory": "OTHER",
+    "agentCategory": "NPC",
+    "youtubeLink": "https://www.youtube.com/embed/cu1AEZIpPV8",
+    "imageLink": "https://raw.githubusercontent.com/Regression-Games-Marketplace/Simple-Kiting-Bot/492294d32c13782a99987935f9a2276217cae78e/thumbnail.png",
+    "codeReferenceLink": "https://github.com/Regression-Games-Marketplace/Simple-Kiting-Bot",
+    "sampleGameLink": "https://github.com/Regression-Games-Marketplace/SampleDemoScene"
+}
